@@ -50,7 +50,7 @@ web_modules/
 
 # Optional npm cache directory
 .npm
-
+.editorconfig
 # Optional eslint cache
 .eslintcache
 
@@ -121,6 +121,7 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode
 
 # yarn v2
 .yarn/cache
