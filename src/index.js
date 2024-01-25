@@ -1,10 +1,9 @@
 require("dotenv").config()
 const express = require("express")
 const app = express()
+const routes = require("./routes")
 
-app.get("/", (req, res) => {
-  return console.log("Hello world!")
-})
+app.use(routes)
 
 const PORT = process.env.PORT || 3000
 
